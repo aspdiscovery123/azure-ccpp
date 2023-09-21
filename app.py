@@ -11,3 +11,5 @@ def abcd():
     out=model.predict(data)
     return str(out)
 
+app.run(host='0.0.0.0')
+
